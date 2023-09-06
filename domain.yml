@@ -1,0 +1,78 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - inform_name
+  - opcao
+  - cidade
+
+actions:
+- action_say_name
+- action_options
+
+
+entities:
+  - nome
+  - option
+  - estado
+
+slots:
+  nome:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: nome
+
+  option:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: option
+
+  estado:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: estado
+
+responses:
+
+  utter_greet:
+  - text: "Olá! Qual é o seu nome?"
+  - text: "Olá! Quem é você?"
+  - text: "Olá! Diga qual é o seu nome."  
+
+  utter_estado:
+  - text: "Digite o Estado o qual o(a) senhor(a) reside"
+
+  utter_options:
+  - text: "Como podemos ajudá-lo(a)? Digite o número correspondente à opção desejada: \n 1 - Atrações; \n 2 - Dúvidas sobre cálculo do valor do ingresso; \n 3 - Local e horários."
+    
+  utter_pergunta:
+  - text: "Ajudo o senhor em algo mais?\nCaso queira selecionar outra opção, basta digitar o número correspondente, se não, basta digitar 'não' ou 'sair' "
+
+  utter_deny:
+  - text: "Oh. Desculpe. Espero ajudar melhor dá próxima vez."
+ 
+
+  utter_goodbye:
+  - text: "Até a próxima."
+  - text: "Tchau"
+  - text: "Bye"
+  - text: "Até logo." 
+  
+  
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,47 @@
+[   
+    {
+        "cidade": "Acre",
+        "distancia": 3322
+    },
+    {
+        "cidade": "São Paulo",
+        "distancia": 435
+    },
+    {
+        "cidade": "Bahia",
+        "distancia": 1293
+    },
+    {
+        "cidade": "Minas Gerais",
+        "distancia": 557
+    },
+    {
+        "cidade": "Rio Grande do Sul",
+        "distancia": 1476
+    },
+    {
+        "cidade": "Espírito Santo",
+        "distancia": 693
+    },
+    {
+        "cidade": "Pernambuco",
+        "distancia": 2057
+    },
+    {
+        "cidade": "Rio Grande do Norte",
+        "distancia": 2587
+    },
+    {
+        "cidade": "Mato Grosso",
+        "distancia": 1844
+
+    },
+    {
+        "cidade": "Manaus",
+        "distancia": 4281
+    },
+    {
+        "cidade": "Roraima",
+        "distancia": 3312
+    }
+]

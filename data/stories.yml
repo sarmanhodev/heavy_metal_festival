@@ -1,0 +1,19 @@
+version: "3.1"
+
+stories:
+
+
+- story: pergunta_evento
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform_name
+  - action: action_say_name
+  - action: utter_estado
+  - intent: cidade
+  - action: utter_options
+  - intent: opcao
+  - action: action_options
+  - action: utter_pergunta
+  - intent: deny
+  - action: utter_goodbye

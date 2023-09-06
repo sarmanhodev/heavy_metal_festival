@@ -1,0 +1,191 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - oi
+    - Oi
+    - Olá
+    - olá
+    - bom dia
+    - Bom dia
+    - boa tarde
+    - Boa tarde
+    - boa noite
+    - Boa noite
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - tchau
+    - Tchau
+    - TCHAU
+    - até logo
+    - ate logo
+    - Até logo
+    - Ate logo
+    - ate
+    - até
+    - Até
+    - Ate
+    - Até mais
+    - até mais
+    - ate mais
+    - Até mais
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - sim
+    - Sim
+    - s
+    - S
+    - claro
+    - Claro
+    - naturalmente
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - não
+    - sair
+    - Sair
+    - Não
+    - nunca
+    - Nunca
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - sem chance
+    - Sem chance
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - perfeito
+    - Perfeito
+    - incrível
+    - Incrível
+    - incrivel
+    - Incrivel
+    - grandioso
+    - Grandioso
+    - bem
+    - Bem
+    - estou bem
+    - Estou bem
+    - sinto-me bem
+    - Sinto-me bem
+    - muito bem
+    - Muito bem
+    - great
+    - amazing
+    - maravilhoso
+    - Maravilhoso
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - triste
+    - Triste
+    - estou triste
+    - Estou triste
+    - chateado
+    - Estou chateado
+    - não me sinto bem
+    - Não me sinto bem
+    - cabisbaixo
+    - Cabisbaixo
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - muito triste
+    - Muito triste
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - voce é humano?
+    - Voce é humano?
+    - você é humano?
+    - Você é humano?
+    - quem é você?
+    - Quem é você?
+
+
+
+- intent: inform_name
+  examples: |
+    - meu nome é [diego](nome)
+    - Meu nome é [Antonio](nome)
+    - [Luna](nome)
+    - [conan](nome)
+
+
+- intent: opcao
+  examples: |
+    - [1](option)
+    - [Opção 2](option)
+    - [opção 2](option)
+
+- intent: cidade
+  examples: |
+    - [Bahia](estado)
+    - [manaus](estado)
+    - [Pernambuco](estado)
+    - [Minas Gerais](estado)
+    - [Rio Grande do Sul](estado)
